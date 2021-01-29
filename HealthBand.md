@@ -27,9 +27,18 @@
 3. **PPG**:
 	1. [MAX86141](https://www.maximintegrated.com/en/products/interface/sensor-interface/MAX86141.html): Best-in-Class Optical Pulse Oximeter and Heart-Rate Sensor for Wearable Health
 		* <u>Cost</u>: ₹583
-	2. 
+		* Doesn't have integrated LEDs or photodiode
+	2. [ADPD1081](https://www.analog.com/en/products/adpd1081.html#product-overview):
+		* <u>Cost</u>: ₹421
+		* Doesn't have integrated LEDs or photodiode
+	3. [MAX86176](https://www.maximintegrated.com/en/products/sensors/MAX86176.html?intcid=para)
+		* Not available.
+		* Datasheet requires an NDA.
+	4. [MAX86916](https://www.maximintegrated.com/en/products/sensors/MAX86916.html/product-details/tabs-3)
+		* <u>Cost</u>: ₹798
+		* Integrated LEDs or photodiode
 4. Sensor Hub:
-	1. MAX32664: (Version C Heart-rate, SpO2 using wrist) Low Power Sensor Hub Family which Seamlessly Communicates with Several Maxim Bio-metric Sensors [MAX32664GTGC+](https://www.mouser.in/ProductDetail/Maxim-Integrated/MAX32664GTGC%2b/?qs=vmHwEFxEFR%252B4L9bBONurNg%3D%3D)
+	1. [MAX32664](https://www.maximintegrated.com/en/products/interface/sensor-interface/MAX32664.html): (Version C Heart-rate, SpO2 using wrist) Low Power Sensor Hub Family which Seamlessly Communicates with Several Maxim Bio-metric Sensors [MAX32664GTGC+](https://www.mouser.in/ProductDetail/Maxim-Integrated/MAX32664GTGC%2b/?qs=vmHwEFxEFR%252B4L9bBONurNg%3D%3D)
 		* <u>Cost</u>: ₹330
 	2. [ADPD4100](https://www.analog.com/en/products/ADPD4100.html#product-overview) 
 5. NRF5340: Main MCU and BLE
