@@ -1,10 +1,11 @@
-# Objectives:
+# Features:
 * Health-band that would track:
 - [x] ECG (Heart rate, Hear rate variability)
 - [x] Body temprature
 - [x] PPG (Heart rate, SPO2)
 - [x] Biopotential/Bioimpedance (can be used to check body composition and respiration when strapped to chest)
 - [x] Accelerometer (step count, fall detection)
+* Wireless charging. (Qi Charging)
 
 # Components:
 1. **ECG**:
@@ -46,14 +47,15 @@
 		* <u>Cost</u>: ₹663.57
 		* Integrated LEDs or photodiode
 		* Choosing this for now because of integrated LEDs and decent price range (approximately the same if you include photodiode and LEDs with other components to other ICs).
-4. Sensor Hub:
+4. **Sensor Hub**:
 	1. [MAX32664](https://www.maximintegrated.com/en/products/interface/sensor-interface/MAX32664.html): (Version C Heart-rate, SpO2 using wrist) Low Power Sensor Hub Family which Seamlessly Communicates with Several Maxim Bio-metric Sensors [MAX32664GTGC+](https://www.mouser.in/ProductDetail/Maxim-Integrated/MAX32664GTGC%2b/?qs=vmHwEFxEFR%252B4L9bBONurNg%3D%3D)
 		* <u>Cost</u>: ₹330
 		* Since we are going to use Maxim stuff it makes sense to use this.
 	2. [ADPD4100](https://www.analog.com/en/products/ADPD4100.html#product-overview) 
-5. NRF5340: Main MCU and BLE
-6. BMA456: Accelerometer
-7. Biopotential/Bioimpedace:
+5. **NRF5340**: Main MCU and BLE
+6. **BMA456**: Accelerometer
+7. **Biopotential/Bioimpedace**:
 	1. Using bioimpedance to measure blood glucose levels (https://www.hindawi.com/journals/aelc/2014/406257/)
 	2. [AD5941](https://www.analog.com/en/products/ad5941.html#product-overview)
-	3. 
+8. **Power Supply**:
+	* mouser link for wireless charging: https://www.mouser.in/Semiconductors/Power-Management-ICs/Wireless-Charging-ICs/_/N-dij82
