@@ -32,6 +32,7 @@
 	1. [MAX86141](https://www.maximintegrated.com/en/products/interface/sensor-interface/MAX86141.html): Best-in-Class Optical Pulse Oximeter and Heart-Rate Sensor for Wearable Health
 		* <u>Cost</u>: ₹583
 		* Doesn't have integrated LEDs or photodiode
+		* Recommened for wrist based application.
 	2. [ADPD1081](https://www.analog.com/en/products/adpd1081.html#product-overview):
 		* <u>Cost</u>: ₹421
 		* photodiode costs around ₹100
@@ -46,7 +47,12 @@
 	5. [MAXM86161EFD+](https://www.mouser.in/ProductDetail/Maxim-Integrated/MAXM86161EFD%2b/?qs=PzGy0jfpSMvG%2FmijvXlxVg%3D%3D)
 		* <u>Cost</u>: ₹663.57
 		* Integrated LEDs or photodiode
-		* Choosing this for now because of integrated LEDs and decent price range (approximately the same if you include photodiode and LEDs with other components to other ICs).
+		* ~~Choosing this for now because of integrated LEDs and decent price range (approximately the same if you include photodiode and LEDs with other components to other ICs)~~. This is for in-ear application. Also not impressed with the documentation.
+	6. [MAXM86146](https://www.maximintegrated.com/en/products/sensors/MAXM86146.html)
+		* <u>Cost</u>: ₹767.96
+	7. [MAX30101](https://www.maximintegrated.com/en/products/MAX30101)
+		* <u>Cost</u>: ₹586.19
+		* Maxim says this is for finger based application.
 4. **Sensor Hub**:
 	1. [MAX32664](https://www.maximintegrated.com/en/products/interface/sensor-interface/MAX32664.html): (Version C Heart-rate, SpO2 using wrist) Low Power Sensor Hub Family which Seamlessly Communicates with Several Maxim Bio-metric Sensors [MAX32664GTGC+](https://www.mouser.in/ProductDetail/Maxim-Integrated/MAX32664GTGC%2b/?qs=vmHwEFxEFR%252B4L9bBONurNg%3D%3D)
 		* <u>Cost</u>: ₹330
